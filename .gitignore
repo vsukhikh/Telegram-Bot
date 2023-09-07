@@ -1,0 +1,44 @@
+# PyCharm-specific files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+/.editorconfig
+
+# Ignore system and IDE files
+.vscode/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files and bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders (if you use virtualenv or venv)
+venv/
+env/
+
+# Ignore log files and database files
+*.log
+*.db
+
+# Ignore sensitive or configuration files containing API keys, secrets, etc.
+config.ini
+
+# Ignore compiled code and build artifacts (specific to your project)
+/build/
+/dist/
+*.egg-info/
+*.egg/
+*.exe
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.zip
+*.gz
+*.tar
