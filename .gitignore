@@ -21,6 +21,7 @@ __pycache__/
 # Ignore virtual environment folders (if you use virtualenv or venv)
 venv/
 env/
+.venv
 
 # Ignore log files and database files
 *.log
